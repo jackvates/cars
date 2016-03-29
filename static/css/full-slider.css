@@ -1,0 +1,425 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+#hw {
+  background-image:url(../img/hw.jpg); 
+  height: 100vh; 
+  width: auto;
+  opacity: 1;
+}
+#first-slider {
+	background-image:url(../img/1.jpg); 
+  /*background-size: 1700px auto;*/
+  background-image: no-repeat;
+	height: 100vh; 
+	width: auto;
+    opacity: 0.9;
+}
+#second-slider {
+	background-image:url(../img/2.jpg); 
+	height: 100vh; 
+	width: auto;
+    opacity: 0.9;
+}
+#third-slider {
+	background-image:url(../img/3.jpg); 
+	height: 100vh; 
+	width: auto;
+    opacity: 0.9;
+}
+#fourth-slider {
+  background-image:url(../img/4.jpg); 
+  height: 100vh; 
+  width: auto;
+    opacity: 0.9;
+}
+#fifth-slider {
+  background-image:url(../img/5.jpg); 
+  height: 100vh; 
+  width: auto;
+    opacity: 0.9;
+}
+#x700-slider-1 {
+  background-image:url(../img/4.jpg); 
+  height: 700px; 
+  width: auto;
+    opacity: 0.9;
+}
+
+#kontakt-h {
+  padding-top: 20px;
+}
+#last-big-photo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.9), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/contact-sep.jpg);
+    /*background-image: url(../img/contact-sep.jpg);*/
+  position: absolute;
+  width: 100%;
+  /*height: 670px;*/
+  min-height: 680px;
+  height: 94vh;
+  min-height: auto;
+min-height: 800px;  
+text-align: center;
+  color: #fff;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.overimage{
+    background-color: black;
+    color: black;
+    height: 670px;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+.top-30px {
+  padding-top: 30px;
+}
+.bg-primary {
+    /*height: 900px;*/
+    height: 1000px;
+    width: 100%;
+  color: #fff;
+  background-color: #333;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #333 !important;
+  border-color: #333 !important;
+}
+a {
+    font-weight: 700;
+    color: #ffffff;
+}
+a:hover {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.pos-rel {
+    position: relative;
+}
+.pos-ab {
+    position: absolute;
+    top: 50px;
+}
+#contactPoint {
+    margin-top: -10px;
+}
+
+.text-faded {
+  color: rgba(255,255,255,0.90);
+  font-size: 20px;
+}
+#about {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+
+
+/*form*/
+input {
+  padding-left: 50px;
+}
+input:focus {
+  border: 0 !important;
+  box-shadow: 0px 0px 1px 2px #333;
+  outline: 0;
+}
+textarea:focus {
+  border: 0 !important;
+  box-shadow: 0px 0px 1px 2px #333;
+  outline: 0;
+}
+#echo {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+
+}
+#name {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+  width: 100%;
+  height: 47px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+#mail {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+  width: 100%;
+  height: 47px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+#phone {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+  width: 100%;
+  height: 47px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+#msg {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+  width: 100%;
+  height: 177px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500; 
+  text-align: left;
+}
+#submit {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  background-color: #fff;
+  width: 100%;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+
+
+/*placeholder*/
+/* all */
+::-webkit-input-placeholder { text-align: left; color:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;}
+::-moz-placeholder { text-align: center; left:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;} /* firefox 19+ */
+:-ms-input-placeholder { text-align: left; color:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;} /* ie */
+input:-moz-placeholder { text-align: left; color:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;}
+/*#msg::-webkit-input-placeholder { text-align: left; color:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;}
+#msg::-moz-placeholder { text-align: left; color:#2c323d; font-family:'Open Sans', sans-serif; text-decoration:none;}*/
+/*placeholder ends*/
+/*input*/
+
+input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+#msg {
+    padding: 15px;
+    background: rgba(255,255,255,1);
+    margin: 0 0 10px 0;
+}
+/*input ends*/
+
+/*end of form*/
+
+.navbar-collapse ul li a {
+  text-align: center;  
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #DFDFDF;
+}
+.margins-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-phone {
+  color: #333;
+}
+.car-phone:hover {
+  color: #333;
+}
+
+
+/*tables*/
+
+.wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 800px;
+}
+
+.table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+@media screen and (max-width: 580px) {
+  .table {
+    display: block;
+  }
+}
+
+.row-c {
+  display: table-row;
+  background: #f6f6f6;
+}
+.row-c:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.row-c.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #333;
+}
+.row-c.green {
+  background: #333;
+}
+.row-c.blue {
+  background: #333;
+}
+@media screen and (max-width: 580px) {
+  .row-c {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+@media screen and (max-width: 580px) {
+  .cell {
+    padding: 2px 12px;
+    display: block;
+  }
+}
+
+/*tables ends*/
+
+#gps-logo {
+  width: auto;
+  height: 45px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 768px) {
+  #gps-logo {
+    margin-top: 15px;
+  }
+}
+.no-decorations {
+  text-decoration: none;
+}
+.foote {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+form {
+  padding-top: 20px;
+}

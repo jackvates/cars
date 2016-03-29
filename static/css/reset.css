@@ -1,0 +1,41 @@
+/* CSS reset */
+.gall body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+.gall html,body {
+	margin:0;
+	padding:0;
+}
+.gall table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.gall fieldset,img { 
+	border:0;
+}
+.gall input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+.gall address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+.gall ol,ul {
+	list-style:none;
+}
+.gall caption,th {
+	text-align:left;
+}
+.gall h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+.gall q:before,q:after {
+	content:'';
+}
+.gall abbr,acronym { border:0;
+}
